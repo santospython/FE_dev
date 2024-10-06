@@ -1,4 +1,4 @@
-/* deign of the first page of Green Mind's website */
+/* deign of the pages of Green Mind's website */
 
 p{
     color: green;
@@ -37,17 +37,17 @@ p{
     font-family: "Arial";
 }
 
-.bar:not(#backgrounf) {
+/* .bar:not(#backgrounf) {
     background-color: #3dbe36;
-  }
+  } */
 
-  .Departamentos{
-    padding: 20px;
-    font-size: 50px;
-    width: 50px;
-    text-align: center;
+.Departamentos{
+    padding: 75px;
+    font-size: 75px;
+    width: 74px;
+    text-align:center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 30px 20px;
 }
 
 #news{
@@ -58,3 +58,48 @@ p{
     text-align: center;
 
 }
+
+.small-direção{
+    color: darkgreen;
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: bold;
+    text-align: left;
+}
+
+.small-ação{
+    color: yellow;
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: bold;
+    text-align: left;
+}
+
+.small-comunicação{
+    color: blue;
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.small-científico{
+    color: red;
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: bold;
+    text-align: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
