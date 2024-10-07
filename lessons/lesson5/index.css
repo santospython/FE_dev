@@ -1,0 +1,34 @@
+p{
+    font-size: 52px;
+    color: yellow; /* rgba(X,Y,Z,O) - from 0 to 255 it give us all colour types - O -> opacidade*/
+    font-family: Arial;
+    text-align: center;
+    line-height: 100;
+    letter-spacing: normal; /* default*/
+    text-transform: lowercase;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.pink{
+    color: pink;
+}
+
+.box{
+    background-color: lightblue;
+    width: 50%;
+    font-size: 120px;
+    padding-left: 50px; /*espaço entre a borda left e a palavra*/
+    padding-top: 50px; /*espaço entre a borda top e a palavra*/
+    padding: 10px 25px 30px 10px; /*top right bottom left*/
+    display: inline-block;
+    margin: 10px; /*espaço entre os blocos*/
+    
+}
+

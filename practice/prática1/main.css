@@ -1,0 +1,59 @@
+html, body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+img{
+    width: 20%;
+    display: block;
+}
+
+.logo_link{
+    width: 187;
+    height: 60;
+    display: block; /*faz com que deixe de ser considerado texto e é todo ele um elemento*/
+}
+
+.nav_item{
+    color:black;
+    font-size:14px;
+    line-height:28px;
+    display: inline-block
+}
+
+.button{
+    background-color: transparent;
+    font-size: 16px;
+    padding: 11px 25px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    color: black;
+    border: 2px solid green;
+    margin-right: 14px;
+    cursor: pointer;
+
+}
+
+.access{
+    border-color: orange;
+    background-color: orange;
+    color:white;
+    margin-right: 0;
+}
